@@ -8,11 +8,13 @@
 //     res.end();
 //   })
 //   .listen(8080);
-const http = require("http");
 
-http
-  .createServer(function (req, res) {
-    res.write("Isev kargad mushaob dzmi<3");
-    res.end();
-  })
-  .listen(8080);
+
+// const http = require("http");
+
+// http
+//   .createServer(function (req, res) {
+//     res.write("Isev kargad mushaob dzmi<3");
+//     res.end();
+//   })
+//   .listen(8080);
