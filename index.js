@@ -12,7 +12,7 @@ const http = require("http");
 
 http
   .createServer(function (req, res) {
-    res.write("Kodi kargad mushaobs");
+    res.write("Isev kargad mushaob dzmi<3");
     res.end();
   })
   .listen(8080);
